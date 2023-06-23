@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60CDDDA6-6531-49FA-BDA0-74F0CD2DB5C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AvtoatelyeApp</RootNamespace>
+    <AssemblyName>AvtoatelyeApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorizationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthorizationForm.Designer.cs">
+      <DependentUpon>AuthorizationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AvtoatelyeBDDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvtoatelyeBDDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoForm.Designer.cs">
+      <DependentUpon>InfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterInsertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterInsertForm.Designer.cs">
+      <DependentUpon>MasterInsertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MastersServiceInsertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MastersServiceInsertForm.Designer.cs">
+      <DependentUpon>MastersServiceInsertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialForm.Designer.cs">
+      <DependentUpon>MaterialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceForm.Designer.cs">
+      <DependentUpon>ServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceInsertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceInsertForm.Designer.cs">
+      <DependentUpon>ServiceInsertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceMasterForm.Designer.cs">
+      <DependentUpon>ServiceMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForm.Designer.cs">
+      <DependentUpon>InsertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterForm.Designer.cs">
+      <DependentUpon>MasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AuthorizationForm.resx">
+      <DependentUpon>AuthorizationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoForm.resx">
+      <DependentUpon>InfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForm.resx">
+      <DependentUpon>InsertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterForm.resx">
+      <DependentUpon>MasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterInsertForm.resx">
+      <DependentUpon>MasterInsertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MastersServiceInsertForm.resx">
+      <DependentUpon>MastersServiceInsertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialForm.resx">
+      <DependentUpon>MaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceForm.resx">
+      <DependentUpon>ServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceInsertForm.resx">
+      <DependentUpon>ServiceInsertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceMasterForm.resx">
+      <DependentUpon>ServiceMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AvtoatelyeBDDataSet.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet.xss">
+      <DependentUpon>AvtoatelyeBDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet1.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet1.xss">
+      <DependentUpon>AvtoatelyeBDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet10.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet10.xss">
+      <DependentUpon>AvtoatelyeBDDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet11.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet11.xss">
+      <DependentUpon>AvtoatelyeBDDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet12.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet12.xss">
+      <DependentUpon>AvtoatelyeBDDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet13.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet13.xss">
+      <DependentUpon>AvtoatelyeBDDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet14.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet14.xss">
+      <DependentUpon>AvtoatelyeBDDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet2.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet2.xss">
+      <DependentUpon>AvtoatelyeBDDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet3.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet3.xss">
+      <DependentUpon>AvtoatelyeBDDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet4.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet4.xss">
+      <DependentUpon>AvtoatelyeBDDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet5.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet5.xss">
+      <DependentUpon>AvtoatelyeBDDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet6.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet6.xss">
+      <DependentUpon>AvtoatelyeBDDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet7.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet7.xss">
+      <DependentUpon>AvtoatelyeBDDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet8.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet8.xss">
+      <DependentUpon>AvtoatelyeBDDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet9.xsc">
+      <DependentUpon>AvtoatelyeBDDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="AvtoatelyeBDDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AvtoatelyeBDDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AvtoatelyeBDDataSet9.xss">
+      <DependentUpon>AvtoatelyeBDDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Data.png" />
+    <Content Include="Images\Key_login.png" />
+    <None Include="Images\Search.png" />
+    <None Include="Images\Salon.png" />
+    <Content Include="Images\User_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

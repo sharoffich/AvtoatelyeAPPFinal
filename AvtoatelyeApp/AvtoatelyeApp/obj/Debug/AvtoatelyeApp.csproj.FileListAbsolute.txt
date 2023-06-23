@@ -1,0 +1,60 @@
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MainForm.resources
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.Properties.Resources.resources
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csproj.GenerateResource.cache
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csproj.CoreCompileInputs.cache
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.InsertForm.resources
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\bin\Debug\AvtoatelyeApp.exe.config
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\bin\Debug\AvtoatelyeApp.exe
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\bin\Debug\AvtoatelyeApp.pdb
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.exe
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.pdb
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.AuthorizationForm.resources
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csproj.AssemblyReference.cache
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MasterForm.resources
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.ServiceForm.resources
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.ServiceMasterForm.resources
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.ServiceInsertForm.resources
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MaterInsertForm.resources
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MastersServiceInsertForm.resources
+C:\Users\evska\source\repos\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.InfoForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\bin\Debug\AvtoatelyeApp.exe.config
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\bin\Debug\AvtoatelyeApp.exe
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\bin\Debug\AvtoatelyeApp.pdb
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csproj.AssemblyReference.cache
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csproj.SuggestedBindingRedirects.cache
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.AuthorizationForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.InfoForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.InsertForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MainForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MasterForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MastersServiceInsertForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.Properties.Resources.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.ServiceForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.ServiceInsertForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.ServiceMasterForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csproj.GenerateResource.cache
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csproj.CoreCompileInputs.cache
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.exe
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.pdb
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\bin\Debug\AvtoatelyeApp.exe.config
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\bin\Debug\AvtoatelyeApp.exe
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\bin\Debug\AvtoatelyeApp.pdb
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csprojAssemblyReference.cache
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.AuthorizationForm.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.InfoForm.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.InsertForm.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MainForm.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MasterForm.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MastersServiceInsertForm.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MaterInsertForm.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.Properties.Resources.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.ServiceForm.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.ServiceInsertForm.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.ServiceMasterForm.resources
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csproj.GenerateResource.cache
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csproj.CoreCompileInputs.cache
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.exe
+E:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.pdb
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MasterInsertForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.MaterialForm.resources
+D:\3 курс\Курсовой\AvtoatelyeApp\AvtoatelyeApp\obj\Debug\AvtoatelyeApp.csproj.ResolveComReference.cache
